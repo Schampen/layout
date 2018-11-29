@@ -1,0 +1,60 @@
+body {
+
+}
+main {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #5F7470; 
+}
+header {
+	width: 100%;
+	background-color: #889696;
+}
+nav{
+	font-size: 3em;
+	width: 100%;
+}
+nav > ul > li {
+	list-style: none;
+	display: inline;
+	padding-left: 0 20px;
+	padding: 5px;
+	border: 5px solid #AD7A99;
+	background-color: #F2A541;
+}
+a {
+	text-decoration: none;
+}
+li > a:hover {
+	color: #F2A541;
+
+}
+nav > ul > li:hover {
+	background-color: #AD7A99; 
+}
+section {
+	font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+	font-size: 7em;
+	font-family: 'Nunito Sans', sans-serif;
+}
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+}
+.blink_me {
+  animation: blinker 0.1s ease-in infinite;
+  animation: colour 0.8s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes colour {
+	from {color: black;}
+	to {color: fuchsia;}
+}
